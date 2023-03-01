@@ -12,6 +12,11 @@
         android:theme="@style/Theme.RestaurantDeveloper"
         tools:targetApi="31">
         <activity
+            android:parentActivityName=".MainActivity"
+            android:label="Starters"
+            android:name=".StartersActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -16,6 +16,10 @@
             android:label="Starters"
             android:name=".StartersActivity"
             android:exported="false" />
+        <activity android:name=".MainCourseActivity"
+            android:label="Main Course"
+            android:exported="false"
+            android:parentActivityName=".MainCourseActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

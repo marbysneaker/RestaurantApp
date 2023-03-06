@@ -19,6 +19,16 @@
             android:textColor="@color/purple_700"
             android:textSize="24sp" />
 
+
+        <TextView
+            android:padding="12dp"
+            android:id="@+id/text_view_email_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marby_restaurant@developer.com"
+            android:layout_below="@id/text_view_restaurant_name"
+            android:layout_centerHorizontal="true"/>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view_starters"
             android:layout_width="200dp"

@@ -12,14 +12,20 @@
         android:theme="@style/Theme.RestaurantDeveloper"
         tools:targetApi="31">
         <activity
-            android:parentActivityName=".MainActivity"
-            android:label="Starters"
-            android:name=".StartersActivity"
-            android:exported="false" />
-        <activity android:name=".MainCourseActivity"
-            android:label="Main Course"
+            android:name=".DesertsActivity"
             android:exported="false"
-            android:parentActivityName=".MainCourseActivity"/>
+            android:label="Deserts"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".StartersActivity"
+            android:exported="false"
+            android:label="Starters"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainCourseActivity"
+            android:exported="false"
+            android:label="Main Course"
+            android:parentActivityName=".MainCourseActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
